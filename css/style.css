@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+html, body {
+  height: 100%;
+  background-color: #333;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fullscreen {
+  min-height: 100vh;
+  background-color: #666;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.fullscreen__body {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  padding: 10px 20px;
+}
+.fullscreen__title {
+  font-size: 50px;
+}
+.fullscreen__text {
+  line-height: 40px;
+  font-size: 20px;
+  margin: 20px 0;
+}
+.fullscreen__link {
+  line-height: 50px;
+  color: #fff;
+  background-color: #333;
+  text-transform: uppercase;
+  font-size: 25px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border-radius: 5px;
+  padding: 0 20px;
+}
+
+.fullscreen_bg {
+  background: url(/img/bg_header.png) center/cover no-repeat fixed;
+}
+
+.fullscreen_two {
+  background-color: chocolate;
+}
+
+.content {
+  padding: 0 30px;
+}
+.content p {
+  color: #fff;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.footer {
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+  padding: 20px 10px;
+  background-color: #111;
+  color: #fff;
+}
